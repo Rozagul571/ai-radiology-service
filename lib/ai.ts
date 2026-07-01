@@ -2,7 +2,7 @@ import type { AIInferenceResult, Finding, ReferralPayload, RiskTier, SpecialtyKe
 import { PATHOLOGIES, PATHOLOGY_MAP, RISK_ORDER, SPECIALTIES, routeSpecialty } from "./pathologies"
 import { pickSpecialistDoctor } from "./doctors"
 
-// Simple seeded PRNG (mulberry32) so results are reproducible per file.
+//  seeded PRNG (mulberry32) so results are reproducible per file.
 function seeded(seed: number) {
   return function () {
     seed |= 0
