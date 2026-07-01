@@ -1,0 +1,9 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Optional: real AI inference (requires ~2GB download on first run)
+# torchxrayvision
+# torch
+# torchvision
